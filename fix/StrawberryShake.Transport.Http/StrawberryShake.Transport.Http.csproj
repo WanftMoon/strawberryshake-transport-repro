@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- StrawberryShake.Transport.Http 16.7.5 sources with the proposed fix in ResponseEnumerable.cs -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>StrawberryShake.Transport.Http</AssemblyName>
+    <RootNamespace>StrawberryShake.Transport.Http</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>16.7.5</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="StrawberryShake.Core" Version="16.7.5" />
+    <PackageReference Include="HotChocolate.Transport.Http" Version="16.7.5" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.0" />
+  </ItemGroup>
+</Project>

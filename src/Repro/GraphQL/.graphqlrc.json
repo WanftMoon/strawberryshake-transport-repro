@@ -1,0 +1,13 @@
+{
+  "schema": "schema.graphql",
+  "documents": "**/*.graphql",
+  "extensions": {
+    "strawberryShake": {
+      "name": "ReproClient",
+      "namespace": "Repro.Client",
+      "dependencyInjection": true,
+      "noStore": true,
+      "transportProfiles": [{ "default": "Http" }]
+    }
+  }
+}

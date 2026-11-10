@@ -1,0 +1,6 @@
+query Points {
+  points {
+    x
+    y
+  }
+}

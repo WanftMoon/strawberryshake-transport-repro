@@ -1,0 +1,12 @@
+schema {
+  query: Query
+}
+
+type Query {
+  points: [Point!]!
+}
+
+type Point {
+  x: Float!
+  y: String!
+}
